@@ -11,5 +11,15 @@ namespace WinFormsApp13
         {
             MessageBox.Show("Hello github!");
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void helpToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
